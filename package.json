@@ -1,0 +1,29 @@
+{
+  "name": "co-memcached-plus",
+  "description": "Memcached library with addtions.",
+  "version": "1.0.6",
+  "author": {
+    "name": "iCH1990",
+    "email": "ich1990@yeah.net"
+  },
+  "license": "MIT",
+  "keywords": [
+    "memcached",
+    "co",
+    "retry"
+  ],
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "memcached": "^2.2.2",
+    "promise-retry": "^1.1.1"
+  },
+  "engines": {
+    "node": ">= 6.4.0"
+  },
+  "files": [
+    "LICENSE",
+    "Readme.md",
+    "index.js",
+    "lib/"
+  ]
+}
