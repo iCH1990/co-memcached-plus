@@ -1,7 +1,7 @@
 {
   "name": "co-memcached-plus",
   "description": "Memcached library with addtions.",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "author": {
     "name": "iCH1990",
     "email": "ich1990@yeah.net"
@@ -17,13 +17,26 @@
     "memcached": "^2.2.2",
     "promise-retry": "^1.1.1"
   },
+  "devDependencies": {
+    "mocha": "^3.1.2",
+    "should": "^11.1.1"
+  },
   "engines": {
     "node": ">= 6.4.0"
   },
   "files": [
+    "index.js",
     "LICENSE",
     "Readme.md",
-    "index.js",
+    "test.js",
     "lib/"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iCH1990/co-memcached-plus.git"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --bail --check-leaks test",
+    "test-cov": "istanbul cover mocha --check-leaks test"
+  }
 }
