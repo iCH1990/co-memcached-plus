@@ -1,7 +1,7 @@
 {
   "name": "co-memcached-plus",
   "description": "Memcached library with addtions.",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "author": {
     "name": "iCH1990",
     "email": "ich1990@yeah.net"
