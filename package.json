@@ -1,7 +1,7 @@
 {
   "name": "co-memcached-plus",
   "description": "Memcached library with addtions.",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "author": {
     "name": "iCH1990",
     "email": "ich1990@yeah.net"
@@ -14,8 +14,7 @@
   ],
   "dependencies": {
     "bluebird": "^3.5.1",
-    "memcached": "^2.2.2",
-    "promise-retry": "^1.1.1"
+    "memcached": "^2.2.2"
   },
   "devDependencies": {
     "mocha": "^3.1.2",
