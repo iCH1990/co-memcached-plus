@@ -1,7 +1,7 @@
 {
   "name": "co-memcached-plus",
   "description": "Memcached library with addtions.",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "author": {
     "name": "iCH1990",
     "email": "ich1990@yeah.net"
@@ -10,10 +10,11 @@
   "keywords": [
     "memcached",
     "co",
-    "retry"
+    "connection pool"
   ],
   "dependencies": {
     "bluebird": "^3.5.1",
+    "generic-pool": "^3.4.2",
     "memcached": "^2.2.2"
   },
   "devDependencies": {

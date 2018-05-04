@@ -1,7 +1,7 @@
 const should = require('should');
 const MemCached = require('./index');
 
-const memcached = new MemCached('127.0.0.1:11211', null, console, true);
+const memcached = new MemCached('127.0.0.1:11211');
 
 describe('memcached', () => {
     describe('.touch()', () => {
